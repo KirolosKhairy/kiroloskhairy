@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="#" method="POST" enctype="multipart/form-data">
+        <!-- Name -->
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" placeholder="Maxim"><br><br>
+
+        <!-- Password -->
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password"><br><br>
+
+        <!-- Tel -->
+        <label for="tel">Tel</label><br>
+        <input type="tel" id="tel" name="tel" placeholder="0-000-000"><br><br>
+
+        <!-- Gender -->
+        <label>Gender</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <!-- Meel -->
+        <label>Meel</label><br>
+        <input type="checkbox" id="pizza" name="meel" value="pizza">
+        <label for="pizza">Pizza</label>
+        <input type="checkbox" id="salad" name="meel" value="salad">
+        <label for="salad">Salad</label>
+        <input type="checkbox" id="burger" name="meel" value="burger">
+        <label for="burger">Burger</label><br><br>
+
+        <!-- Quantity -->
+        <label for="quantity">Quantity</label><br>
+        <input type="number" id="quantity" name="quantity" value="3"><br><br>
+
+        <!-- Favorite color -->
+        <label for="color">Favorite color</label><br>
+        <input type="color" id="color" name="color"><br><br>
+
+        <!-- About yourself -->
+        <label for="about">About yourself</label><br>
+        <textarea id="about" name="about" rows="4" cols="50"></textarea><br><br>
+
+        <!-- Your photo -->
+        <label for="photo">Your photo</label><br>
+        <input type="file" id="photo" name="photo"><br><br>
+
+        <!-- Buttons -->
+        <button type="submit">Send</button>
+        <button type="reset">Clear</button>
+    </form>
+</body>
+</html>
